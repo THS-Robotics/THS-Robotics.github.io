@@ -8,65 +8,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("/w3images/mac.jpg");
-  min-height: 100%;
-}
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
+<link rel="stylesheet" href ="styles.css">
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <a href="https://ths-robotics.github.io/#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="https://ths-robotics.github.io/#about" class="w3-bar-item w3-button">ABOUT THSR</a>
+      <a href="https://ths-robotics.github.io/#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> OUR OFFICER TEAM</a>
+      <a href="https://ths-robotics.github.io/gallery.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> IMAGE GALLERY</a>
+      <a href="https://ths-robotics.github.io/sponsors.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> SPONSORS</a>
+      <a href="https://ths-robotics.github.io/blog.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> BLOG</a>
+      <a href="https://ths-robotics.github.io/#get_involved" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> GET INVOLVED</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -79,11 +36,12 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="https://ths-robotics.github.io/#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="https://ths-robotics.github.io/#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="https://ths-robotics.github.io/gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="https://ths-robotics.github.io/sponsors.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="https://ths-robotics.github.io/blog.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="https://ths-robotics.github.io/#get_involved" onclick="w3_close()" class="w3-bar-item w3-button">GET INVOLVED</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -107,41 +65,22 @@ body, html {
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
   <h3 class="w3-center">ABOUT THE CLUB: WHO WE ARE</h3>
-  <p class="w3-center w3-large">The THS Robotics club is a collection of engineers and programmers of various skill levels coming together in pursuit of a common goal: building the best robot possible! We compete in VEX competitions every year to take our prowess and ingenuity to their absolute limits.</p>
+  <p class="w3-center w3-large">The THS Robotics club is a collection of engineers and programmers of various skill levels coming together in pursuit of a common goal: building the best robot possible! We compete in VEX competitions every year to take our prowess and ingenuity to their absolute limits. We believe in the following fundamentals-</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+    <div class="w3-third">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
+      <p class="w3-large">Ingenuity</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-third">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
+      <p class="w3-large">Teamwork</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-third">
       <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
+      <p class="w3-large">Competition</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>We know design.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
-    </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
@@ -242,7 +181,50 @@ body, html {
   </div>
 </div>
 
-<!-- Promo Section "Statistics" -->
+<!-- Get Involved Section -->
+<div class="w3-container" style="padding:128px 16px" id="get_involved">
+  <h3 class="w3-center">GET INVOLVED</h3>
+  <p class="w3-center w3-large">The THS Robotics club is a collection of engineers and programmers of various skill levels coming together in pursuit of a common goal: building the best robot possible! We compete in VEX competitions every year to take our prowess and ingenuity to their absolute limits.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Discord</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Remind</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Youtube</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Instagram</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" 
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p><a href="https://ths-robotics.github.io/gallery.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+-->
+
+<!-- Promo Section "Statistics"
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
   <div class="w3-quarter">
     <span class="w3-xxlarge">14+</span>
@@ -261,8 +243,9 @@ body, html {
     <br>Meetings
   </div>
 </div>
+-->
 
-<!-- Work Section -->
+<!-- Work Section 
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">OUR WORK</h3>
   <p class="w3-center w3-large">What we've done for people</p>
@@ -297,6 +280,7 @@ body, html {
     </div>
   </div>
 </div>
+-->
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -307,7 +291,7 @@ body, html {
   </div>
 </div>
 
-<!-- Skills Section -->
+<!-- Skills Section 
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
@@ -333,8 +317,9 @@ body, html {
     </div>
   </div>
 </div>
+-->
 
-<!-- Pricing Section -->
+<!-- Pricing Section 
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
   <h3>PRICING</h3>
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
@@ -389,8 +374,9 @@ body, html {
     </div>
   </div>
 </div>
+-->
 
-<!-- Contact Section -->
+<!-- Contact Section 
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
@@ -409,11 +395,12 @@ body, html {
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
-    </form>
-    <!-- Image of location/map -->
+    </form> -->
+    <!-- Image of location/map 
     <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
 </div>
+-->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
