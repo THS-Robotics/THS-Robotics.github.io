@@ -34,6 +34,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
+  background-color: lightskyblue;
   background-image: url("media/ths_robotics_logo.png");
   min-height: 100%;
 }
