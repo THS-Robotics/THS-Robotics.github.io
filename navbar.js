@@ -2,7 +2,7 @@
 document.write("<!-- Navbar (sit on top) -->");
 document.write("<div class=\"w3-top\">");
 document.write("  <div class=\"w3-bar w3-light-blue w3-card\" id=\"myNavbar\">");
-document.write("    <a href=\"https:\/\/ths-robotics.github.io\/#home\" class=\"w3-bar-item w3-button w3-wide w3-hover-cyan\"><img src=\"media\/landscape_logo_thsr.png\"alt=\"logo\" height=\"24px\"><\/a>");
+document.write("    <a href=\"https:\/\/ths-robotics.github.io\/#home\" class=\"w3-bar-item w3-button w3-wide w3-hover-cyan\"><img src=\"media\/BichromeOutline.png\"alt=\"logo\" height=\"28px\"><\/a>");
 document.write("    <!-- Right-sided navbar links -->");
 document.write("    <div class=\"w3-right w3-hide-small\">");
 document.write("      <a href=\"https:\/\/ths-robotics.github.io\/#about\" class=\"w3-bar-item w3-button w3-hover-cyan\">ABOUT THSR<\/a>");
