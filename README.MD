@@ -1,6 +1,9 @@
-Things we need on the website
+TODO
 
-Home: Who we are + officer team + social medias
-Blog: blog
-Gallery: Images
-Sponsors: Thanks to our sponsors + how to sponsor
+Landing
+Some Images of What we do
+How to Join
+Communications
+Calendar
+How to Sponsor
+Resources
